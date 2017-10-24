@@ -1,0 +1,80 @@
+package net.tilera.materialapi.recipes;
+
+import net.minecraft.init.Items;
+import net.minecraft.item.ItemStack;
+import net.minecraftforge.fml.common.registry.GameRegistry;
+import net.tilera.materialapi.items.Dusts;
+import net.tilera.materialapi.items.Ingots;
+
+public class DustSmelting {
+
+	public static void init() {
+		GameRegistry.addSmelting(Items.REDSTONE, new ItemStack(Ingots.ingotRedstone), 0.0F);
+		GameRegistry.addSmelting(Dusts.dustBluestone, new ItemStack(Ingots.ingotBluestone), 0.0F);
+		GameRegistry.addSmelting(Dusts.dustDragonEgg, new ItemStack(Ingots.ingotDragonEgg), 0.0F);
+		GameRegistry.addSmelting(Dusts.dustGreenstone, new ItemStack(Ingots.ingotGreenstone), 0.0F);
+		GameRegistry.addSmelting(Dusts.dustEnder, new ItemStack(Ingots.ingotEnder), 0.0F);
+		GameRegistry.addSmelting(Dusts.dustChaos, new ItemStack(Ingots.ingotChaos), 0.0F);
+		GameRegistry.addSmelting(Dusts.dust1810ium, new ItemStack(Ingots.ingot1810ium), 0.0F);
+		GameRegistry.addSmelting(Dusts.dustAdvancedAlloy, new ItemStack(Ingots.ingotAdvancedAlloy), 0.0F);
+		GameRegistry.addSmelting(Dusts.dustAlubrass, new ItemStack(Ingots.ingotAlubrass), 0.0F);
+		GameRegistry.addSmelting(Dusts.dustAluminum, new ItemStack(Ingots.ingotAluminum), 0.0F);
+		GameRegistry.addSmelting(Dusts.dustArdite, new ItemStack(Ingots.ingotArdite), 0.0F);
+		GameRegistry.addSmelting(Dusts.dustBedrock, new ItemStack(Ingots.ingotBedrock), 0.0F);
+		GameRegistry.addSmelting(Dusts.dustBedrockium, new ItemStack(Ingots.ingotBedrockium), 0.0F);
+		GameRegistry.addSmelting(Dusts.dustBlutonium, new ItemStack(Ingots.ingotBlutonium), 0.0F);
+		GameRegistry.addSmelting(Dusts.dustBrass, new ItemStack(Ingots.ingotBrass), 0.0F);
+		GameRegistry.addSmelting(Dusts.dustBronze, new ItemStack(Ingots.ingotBronze), 0.0F);
+		GameRegistry.addSmelting(Dusts.dustChrome, new ItemStack(Ingots.ingotChrome), 0.0F);
+		GameRegistry.addSmelting(Dusts.dustCobalt, new ItemStack(Ingots.ingotCobalt), 0.0F);
+		GameRegistry.addSmelting(Dusts.dustConstantan, new ItemStack(Ingots.ingotConstantan), 0.0F);
+		GameRegistry.addSmelting(Dusts.dustCopper, new ItemStack(Ingots.ingotCopper), 0.0F);
+		GameRegistry.addSmelting(Dusts.dustCreativite, new ItemStack(Ingots.ingotCreativite), 0.0F);
+		GameRegistry.addSmelting(Dusts.dustCyanite, new ItemStack(Ingots.ingotCyanite), 0.0F);
+		GameRegistry.addSmelting(Dusts.dustDarkSteel, new ItemStack(Ingots.ingotDarkSteel), 0.0F);
+		GameRegistry.addSmelting(Dusts.dustDemon, new ItemStack(Ingots.ingotDemon), 0.0F);
+		GameRegistry.addSmelting(Dusts.dustDraconic, new ItemStack(Ingots.ingotDraconic), 0.0F);
+		GameRegistry.addSmelting(Dusts.dustDraconium, new ItemStack(Ingots.ingotDraconium), 0.0F);
+		GameRegistry.addSmelting(Dusts.dustElectricalSteel, new ItemStack(Ingots.ingotElectricalSteel), 0.0F);
+		GameRegistry.addSmelting(Dusts.dustElectrum, new ItemStack(Ingots.ingotElectrum), 0.0F);
+		GameRegistry.addSmelting(Dusts.dustEnchanted, new ItemStack(Ingots.ingotEnchanted), 0.0F);
+		GameRegistry.addSmelting(Dusts.dustEnderium, new ItemStack(Ingots.ingotEnderium), 0.0F);
+		GameRegistry.addSmelting(Dusts.dustEndgameium, new ItemStack(Ingots.ingotEndgameium), 0.0F);
+		GameRegistry.addSmelting(Dusts.dustEnergeticAlloy, new ItemStack(Ingots.ingotEnergeticAlloy), 0.0F);
+		GameRegistry.addSmelting(Dusts.dustEvilInfused, new ItemStack(Ingots.ingotEvilInfused), 0.0F);
+		GameRegistry.addSmelting(Items.GLOWSTONE_DUST, new ItemStack(Ingots.ingotGlowstone), 0.0F);
+		GameRegistry.addSmelting(Dusts.dustGold, new ItemStack(Items.GOLD_INGOT), 0.0F);
+		GameRegistry.addSmelting(Dusts.dustGraphite, new ItemStack(Ingots.ingotGraphite), 0.0F);
+		GameRegistry.addSmelting(Dusts.dustInvar, new ItemStack(Ingots.ingotInvar), 0.0F);
+		GameRegistry.addSmelting(Dusts.dustIridium, new ItemStack(Ingots.ingotIridium), 0.0F);
+		GameRegistry.addSmelting(Dusts.dustIron, new ItemStack(Items.IRON_INGOT), 0.0F);
+		GameRegistry.addSmelting(Dusts.dustKnightslime, new ItemStack(Ingots.ingotKnightslime), 0.0F);
+		GameRegistry.addSmelting(Dusts.dustLead, new ItemStack(Ingots.ingotLead), 0.0F);
+		GameRegistry.addSmelting(Dusts.dustLudicrite, new ItemStack(Ingots.ingotLudicrite), 0.0F);
+		GameRegistry.addSmelting(Dusts.dustLumium, new ItemStack(Ingots.ingotLumium), 0.0F);
+		GameRegistry.addSmelting(Dusts.dustManyullyn, new ItemStack(Ingots.ingotManyullyn), 0.0F);
+		GameRegistry.addSmelting(Dusts.dustMithril, new ItemStack(Ingots.ingotMithril), 0.0F);
+		GameRegistry.addSmelting(Dusts.dustNickel, new ItemStack(Ingots.ingotNickel), 0.0F);
+		GameRegistry.addSmelting(Dusts.dustObsidian, new ItemStack(Ingots.ingotObsidian), 0.0F);
+		GameRegistry.addSmelting(Dusts.dustOsmium, new ItemStack(Ingots.ingotOsmium), 0.0F);
+		GameRegistry.addSmelting(Dusts.dustPhasedGold, new ItemStack(Ingots.ingotPhasedGold), 0.0F);
+		GameRegistry.addSmelting(Dusts.dustPigiron, new ItemStack(Ingots.ingotPigiron), 0.0F);
+		GameRegistry.addSmelting(Dusts.dustPlatinum, new ItemStack(Ingots.ingotPlatinum), 0.0F);
+		GameRegistry.addSmelting(Dusts.dustQuartzEnriched, new ItemStack(Ingots.ingotQuartzEnriched), 0.0F);
+		GameRegistry.addSmelting(Dusts.dustRedstoneAlloy, new ItemStack(Ingots.ingotRedstoneAlloy), 0.0F);
+		GameRegistry.addSmelting(Dusts.dustRefinedObsidian, new ItemStack(Ingots.ingotRefinedObsidian), 0.0F);
+		GameRegistry.addSmelting(Dusts.dustSignalum, new ItemStack(Ingots.ingotSignalum), 0.0F);
+		GameRegistry.addSmelting(Dusts.dustSilver, new ItemStack(Ingots.ingotSilver), 0.0F);
+		GameRegistry.addSmelting(Dusts.dustSoularium, new ItemStack(Ingots.ingotSoularium), 0.0F);
+		GameRegistry.addSmelting(Dusts.dustStarSteel, new ItemStack(Ingots.ingotStarSteel), 0.0F);
+		GameRegistry.addSmelting(Dusts.dustSteel, new ItemStack(Ingots.ingotSteel), 0.0F);
+		GameRegistry.addSmelting(Dusts.dustTheingot, new ItemStack(Ingots.ingotTheingot), 0.0F);
+		GameRegistry.addSmelting(Dusts.dustTin, new ItemStack(Ingots.ingotTin), 0.0F);
+		GameRegistry.addSmelting(Dusts.dustTitanium, new ItemStack(Ingots.ingotTitanium), 0.0F);
+		GameRegistry.addSmelting(Dusts.dustTungsten, new ItemStack(Ingots.ingotTungsten), 0.0F);
+		GameRegistry.addSmelting(Dusts.dustTungstenSteel, new ItemStack(Ingots.ingotTungstenSteel), 0.0F);
+		GameRegistry.addSmelting(Dusts.dustUranium, new ItemStack(Ingots.ingotUranium), 0.0F);
+		GameRegistry.addSmelting(Dusts.dustYellorium, new ItemStack(Ingots.ingotYellorium), 0.0F);
+		GameRegistry.addSmelting(Dusts.dustZinc, new ItemStack(Ingots.ingotZinc), 0.0F);
+	}
+}
