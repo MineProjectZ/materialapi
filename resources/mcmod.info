@@ -1,0 +1,17 @@
+[
+{
+  "modid": "materialapi",
+  "name": "Material API",
+  "description": "A mod that adds many Ingots and Materials.",
+  "version": "1.0.0",
+  "mcversion": "1.10.2",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["tilera", "mineprojectz"],
+  "credits": "tilera and the mineprojectz org",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+},
+{
+]
